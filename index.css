@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: roboto;
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid red;
+  }
+
+
+
+#learn .container {
+    background-color: #DDB9A3;
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30%;
+    color: white;
+    line-height: 1.4;
+    border-radius: 10px;
+}
+
+nav .container {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid red;
+
+}
+
+  .box {
+    height: 25%;
+    width: 10%;
+    padding: 1%;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+  }
+
+  .boxOne {
+    background-color: #FF764E;
+  }
+
+  .boxTwo {
+    background-color: #5ED3EB;
+  }
+
+  .boxThree {
+    background-color: #FFCD69;
+  }
+
+header .title .container {
+    height: 30vh;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid red;
+  }
+
+.boxFour {
+    float: left;
+}
+border-radius: 10px;
+border: 1px solid red;
+
+.boxFive {
+    float:right
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+  header img {
+    height: 60%;
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+  }
+
+section .smallText p {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#involved .container {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#plan .container {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+footer {
+    background: #F9E7DC;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+footer img {
+    width: 100%;
+}
+
+
